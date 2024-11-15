@@ -80,6 +80,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    margin-left: -80px;
 }
 
 .header-image {
@@ -88,7 +90,7 @@ body {
 }
 
 .header-image img {
-    margin-left: -90px;
+    margin-left: -100px;
     width: 500px;
     height: 100%;
     object-fit: cover;
@@ -96,14 +98,15 @@ body {
 }
 
 .header-text {
-    width: calc(100% - 570px) !important;
+    /* width: calc(100% - 570px) !important; */
+    width: 50%;
     height: 50%;
 
 }
 
 .next {
     /* margin-left: -1300px; */
-    max-width: 100%;
+    width: 100%;
     font-size: 30px;
     color: white;
     /* animation: slideIn 1s forwards; */
@@ -127,7 +130,7 @@ body {
     position: relative;
     background: #2d2d2d;
     height: 100vh;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     top: 100vh;
     border-radius: 15px;
@@ -138,7 +141,7 @@ body {
 .content-container {
     height: 100%;
     width: 100%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 @keyframes fadeIn {

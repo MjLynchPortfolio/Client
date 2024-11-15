@@ -5,6 +5,8 @@ import "../CSS/queries.css";
 
 import iphoneDemo from '../Images/Iphone-demo.png';
 
+import Nav from './Nav';
+
 
 export default function LandingPage() {
     const [scroll, setScroll] = useState(0);
