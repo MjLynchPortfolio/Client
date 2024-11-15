@@ -107,7 +107,53 @@ html {
     /* width: calc(100% - 570px) !important; */
     width: 50%;
     height: 50%;
+}
 
+.socials {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.socials ul {
+    z-index: 2;
+    color: white;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: left;
+    gap: 10px;
+    width: 100%;
+}
+
+.socials ul li {
+    list-style: none;
+    font-size: 20px;
+    width: 40px;
+    margin: 0;
+    margin-right: 25px;
+    /* Remove excessive margin */
+    padding: 0;
+}
+
+.socials li a {
+    color: white;
+    text-decoration: none;
+    width: 40px;
+}
+
+.socials li i {
+    font-size: 36px;
+    width: 40px;
+}
+
+.socials li,
+.socials li a,
+.socials li i {
+    width: 40px;
+}
+
+.socials li i:hover {
+    cursor: pointer;
 }
 
 .next {

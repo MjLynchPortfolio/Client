@@ -81,6 +81,10 @@
         font-size: 14px;
     }
 
+    .socials ul {
+        justify-content: center;
+    }
+
     .scroll {
         font-size: 12px;
         position: absolute;
@@ -99,14 +103,6 @@
         width: 100vw;
         margin: 0;
         padding: 20px;
-        box-sizing: border-box;
-    }
-}
-
-@media only screen and (max-width: 430px) {
-    .landing-page-content {
-        width: 100%;
-        margin: 0;
         box-sizing: border-box;
     }
 }

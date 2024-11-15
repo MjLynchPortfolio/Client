@@ -7,10 +7,14 @@ import iphoneDemo from '../Images/Iphone-demo.png';
 
 import Nav from './Nav';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function LandingPage() {
     const [scroll, setScroll] = useState(0);
     const containerRef = useRef(null);
+
 
     useEffect(() => {
         const handleScroll = () => {
@@ -47,6 +51,13 @@ export default function LandingPage() {
                             <h1>Hi, I'm MJ</h1>
                             <h1>Full Stack Developer</h1>
                             <p className='next'>I've been crafting websites for years—mostly because my ideas won't stop bugging me until I do.</p>
+                            <div className='socials'>
+                                <ul>
+                                    <li><a href='#l'><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href='#g'><i class="fa-brands fa-github"></i></a></li>
+                                    <li><a href="#c"><i class="fa-brands fa-codepen"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
