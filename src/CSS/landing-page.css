@@ -12,7 +12,7 @@ html {
     background-color: #2d2d2d;
     font-family: "Ubuntu", sans-serif;
     color: white;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .landing-page {
