@@ -1,0 +1,10 @@
+.landing-page {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    border: 1px solid white;
+    height: 75%;
+    width: 100%;
+}
