@@ -96,6 +96,7 @@
         /* Ensure it's centered */
         text-align: center;
         width: 100%;
+        display: none;
         /* Make sure it spans the width */
     }
 
