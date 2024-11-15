@@ -30,7 +30,7 @@
 
     .fade-in-header {
         font-size: clamp(1rem, 10vmin, 1rem);
-        top: 0%;
+        top: -30px;
         padding: 10px;
     }
 
@@ -85,7 +85,7 @@
     .scroll {
         font-size: 12px;
         position: absolute;
-        bottom: 20px;
+        bottom: 40px;
         /* Keep it close to the bottom */
         left: 50%;
         /* Center it horizontally */
