@@ -14,7 +14,31 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export default function LandingPage() {
     const [scroll, setScroll] = useState(0);
     const containerRef = useRef(null);
+    const [displayedText, setDisplayedText] = useState('');
+    const characterArray = ["H", "i", ",", " ", "I", "'", "m", " ", "M", "J", "!"];
 
+    // Typing animation logic
+    useEffect(() => {
+        let index = 0;
+        setDisplayedText(''); // Ensure reset at the start
+
+        const typeText = () => {
+            if (index < characterArray.length) {
+                const char = characterArray[index];
+                if (char !== undefined) { // Prevent appending 'undefined'
+                    console.log(`Index: ${index}, Character: "${char}"`); // Debugging log
+                    setDisplayedText((prev) => prev + char);
+                }
+                index++;
+            } else {
+                clearInterval(typingInterval); // Stop when complete
+            }
+        };
+
+        const typingInterval = setInterval(typeText, 150); // Adjust speed as needed
+
+        return () => clearInterval(typingInterval); // Clean up
+    }, []);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -30,6 +54,9 @@ export default function LandingPage() {
             container.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
+
+
 
     return (
         <div className="landing-page" ref={containerRef} style={{ overflowY: 'scroll', height: '100vh' }}>
@@ -48,14 +75,14 @@ export default function LandingPage() {
                             <img src={iphoneDemo} alt='Iphone Demo' />
                         </div>
                         <div className='header-text'>
-                            <h1>Hi, I'm MJ</h1>
+                            <h1 className='typewriter'>{displayedText}<span className="cursor">_</span></h1>
                             <h1>Full Stack Developer</h1>
                             <p className='next'>I've been crafting websites for years—mostly because my ideas won't stop bugging me until I do.</p>
                             <div className='socials'>
                                 <ul>
-                                    <li><a href='#l'><i class="fa-brands fa-linkedin"></i></a></li>
-                                    <li><a href='#g'><i class="fa-brands fa-github"></i></a></li>
-                                    <li><a href="#c"><i class="fa-brands fa-codepen"></i></a></li>
+                                    <li><a href='https://www.linkedin.com/in/martin-lynch-838976123/'><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href='https://github.com/mjlynch123'><i class="fa-brands fa-github"></i></a></li>
+                                    <li><a href="https://codepen.io/mjlynch123"><i class="fa-brands fa-codepen"></i></a></li>
                                 </ul>
                             </div>
                         </div>

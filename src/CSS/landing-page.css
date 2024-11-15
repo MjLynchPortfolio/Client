@@ -109,6 +109,19 @@ html {
     height: 50%;
 }
 
+.typewriter {
+    display: inline;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.cursor {
+    display: inline;
+    color: white;
+    animation: blink 0.7s steps(1) infinite;
+    margin-left: 2px;
+}
+
 .socials {
     width: 100%;
     margin-top: 25px;
@@ -222,5 +235,18 @@ html {
 
     to {
         margin-left: 0;
+    }
+}
+
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
     }
 }
