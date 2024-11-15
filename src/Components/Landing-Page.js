@@ -1,4 +1,4 @@
-import react, { useState, useEffect } from 'react';
+import react, { useState, useEffect, useRef } from 'react';
 
 import "../CSS/landing-page.css";
 import "../CSS/queries.css";
@@ -10,21 +10,25 @@ import Nav from './Nav';
 
 export default function LandingPage() {
     const [scroll, setScroll] = useState(0);
+    const containerRef = useRef(null);
 
     useEffect(() => {
         const handleScroll = () => {
-            setScroll(window.scrollY);
+            if (containerRef.current) {
+                setScroll(containerRef.current.scrollTop);
+            }
         };
 
-        window.addEventListener('scroll', handleScroll);
+        const container = containerRef.current;
+        container.addEventListener('scroll', handleScroll);
 
         return () => {
-            window.removeEventListener('scroll', handleScroll);
+            container.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
     return (
-        <div className="landing-page">
+        <div className="landing-page" ref={containerRef} style={{ overflowY: 'scroll', height: '100vh' }}>
             <div className='header-gradient'></div>
             <div
                 className="landing-main"

@@ -22,8 +22,10 @@
 
     .landing-main {
         font-size: 20px;
-        height: auto;
         width: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
     }
 
     .fade-in-header {
@@ -36,8 +38,19 @@
         flex-direction: column;
         align-items: center;
         width: 100vw;
+        height: 100%;
         margin-left: -10px;
         /* gap: 20px; */
+    }
+
+    .header-text,
+    .header-image {
+        margin: 0;
+        /* Ensure no extra margin */
+        padding: 0;
+        /* Ensure no extra padding */
+        max-height: 100%;
+        /* Ensure no child element exceeds the container height */
     }
 
     .header-image {
@@ -56,31 +69,54 @@
     .header-text {
         width: 100%;
         text-align: center;
-        padding: 0 10px;
-        margin-left: -100px;
+        padding: 5px;
+        margin-top: -50px;
+    }
 
+    .header-text h1 {
+        font-size: 35px;
+    }
+
+    .header-text p {
+        font-size: 16px;
     }
 
     .scroll {
         font-size: 12px;
+        position: absolute;
         bottom: 10px;
+        /* Keep it close to the bottom */
+        left: 50%;
+        /* Center it horizontally */
+        transform: translateX(-50%);
+        /* Ensure it's centered */
         text-align: center;
+        width: 100%;
+        /* Make sure it spans the width */
     }
 
     .landing-page-content {
         width: 100vw;
         margin: 0;
-        padding: 0;
+        padding: 20px;
         box-sizing: border-box;
     }
 }
 
 @media only screen and (max-width: 430px) {
-
-
     .landing-page-content {
         width: 100%;
         margin: 0;
         box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header-text h1 {
+        font-size: 24px
+    }
+
+    .header-text p {
+        font-size: 12px;
     }
 }
