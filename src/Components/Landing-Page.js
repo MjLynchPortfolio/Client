@@ -5,11 +5,7 @@ import "../CSS/queries.css";
 
 import iphoneDemo from '../Images/Iphone-demo.png';
 
-import Nav from './Nav';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Projects from "../Components/Projects";
 
 export default function LandingPage() {
     const [scroll, setScroll] = useState(0);
@@ -55,9 +51,6 @@ export default function LandingPage() {
         };
     }, []);
 
-
-
-
     return (
         <div className="landing-page" ref={containerRef} style={{ overflowY: 'scroll', height: '100vh' }}>
             <div className='header-gradient'></div>
@@ -94,11 +87,7 @@ export default function LandingPage() {
                 </div>
             </div>
             <div className="landing-page-content">
-                <div className='content-container'>
-                    <div className='content'>
-                        <h1>My Projects</h1>
-                    </div>
-                </div>
+                <Projects />
             </div>
         </div>
     );

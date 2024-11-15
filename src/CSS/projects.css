@@ -1,0 +1,21 @@
+.content-container {
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    font-family: "Inter";
+    box-sizing: border-box;
+    padding: 10px;
+    /* Add padding */
+}
+
+.content {
+    height: 100%;
+    /* Ensure it takes up available space */
+    width: 100%;
+    /* Ensure it takes up available space */
+    border: 1px solid white;
+    box-sizing: border-box;
+    /* Include padding and border in width/height */
+    padding: 10px;
+    /* Add padding */
+}

@@ -202,12 +202,6 @@ html {
     /* padding: 20px; */
 }
 
-.content-container {
-    height: 100%;
-    width: 100%;
-    /* border: 1px solid white; */
-}
-
 @keyframes fadeIn {
     0% {
         opacity: 0;
