@@ -30,7 +30,7 @@
 
     .fade-in-header {
         font-size: clamp(1rem, 10vmin, 1rem);
-        top: 5%;
+        top: 0%;
         padding: 10px;
     }
 
