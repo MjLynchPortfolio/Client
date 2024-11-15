@@ -1,0 +1,19 @@
+header {
+    height: 75%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.header-container {
+    position: absolute;
+    left: 30px;
+    top: 40%;
+    font-family: "Inter", sans-serif;
+}
+
+.header-content h1 {
+    font-size: 5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
