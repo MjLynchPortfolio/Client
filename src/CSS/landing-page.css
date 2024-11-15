@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -48,19 +52,6 @@ body {
 .landing-main>* {
     position: relative;
     z-index: 2;
-}
-
-.landing-page-content {
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 40px;
-    position: relative;
-    background: #2d2d2d;
-    height: 100vh;
-    display: flex;
-    top: 100vh;
-    border-radius: 15px;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.55);
 }
 
 .fade-in-header {
@@ -127,6 +118,27 @@ body {
     color: white;
     animation: fadeIn 5s forwards;
     text-align: center;
+}
+
+.landing-page-content {
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+    position: relative;
+    background: #2d2d2d;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    top: 100vh;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.55);
+    padding: 20px;
+}
+
+.content-container {
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
 }
 
 @keyframes fadeIn {

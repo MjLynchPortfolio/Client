@@ -1,6 +1,7 @@
 import react, { useState, useEffect } from 'react';
 
 import "../CSS/landing-page.css";
+import "../CSS/queries.css";
 
 import iphoneDemo from '../Images/Iphone-demo.png';
 
@@ -52,8 +53,6 @@ export default function LandingPage() {
                 <div className='content-container'>
                     <div className='content'>
                         <h1>My Projects</h1>
-                        <p>Behold! A collection of my finest (and maybe a few questionable) creations. Click on the images to dive into the sites that kept me up at night.</p>
-
                     </div>
                 </div>
             </div>
