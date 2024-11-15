@@ -75,6 +75,7 @@
 
     .header-text h1 {
         font-size: 28px;
+        margin-top: -10px;
     }
 
     .header-text p {
