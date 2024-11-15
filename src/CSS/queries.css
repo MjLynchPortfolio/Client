@@ -85,7 +85,7 @@
     .scroll {
         font-size: 12px;
         position: absolute;
-        bottom: 40px;
+        bottom: 50px;
         /* Keep it close to the bottom */
         left: 50%;
         /* Center it horizontally */
