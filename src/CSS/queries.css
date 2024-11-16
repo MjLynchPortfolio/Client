@@ -111,6 +111,7 @@
 
     .landing-page-content {
         width: 100vw;
+        height: auto !important;
         margin: 0;
         padding: 20px;
         box-sizing: border-box;
