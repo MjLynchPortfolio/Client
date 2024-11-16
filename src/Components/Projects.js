@@ -41,7 +41,7 @@ export default function Projects() {
                 name: "Password Generator",
                 languages: ['JavaScript', 'HTML', 'CSS'], // Correctly use an array
                 description: "This program generates a random password based on user input",
-                live_url: "https://github.com/mjlynch123/Employee_Dashboard",
+                live_url: "https://mjlynch123.github.io/Product_Page_FEM/",
                 github_link: "https://github.com/mjlynch123/Product_Page_FEM",
                 image: productPage,
             },
