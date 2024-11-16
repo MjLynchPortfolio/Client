@@ -102,6 +102,33 @@
         margin: 0;
         padding: 20px;
         box-sizing: border-box;
+        box-shadow: none;
+    }
+
+    /* Cards (Project) */
+
+    .content-container,
+    .content,
+    .card-container {
+        margin-left: -4px !important;
+        padding: 10px !important;
+        width: 100vw !important;
+    }
+
+    .card {
+        height: 500px !important;
+    }
+
+    .card-image {
+        height: 60% !important;
+    }
+
+    .card-inner-content {
+        height: 40% !important;
+    }
+
+    .languages {
+        font-size: 8px !important;
     }
 }
 

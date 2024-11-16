@@ -1,6 +1,8 @@
 import react, { useState, useEffect } from 'react'
 
 import "../CSS/projects.css"
+import "../CSS/queries.css"
+
 import projectImage from '../Images/pass-gen.png';
 import newsletterImage from '../Images/newsletter-signup.png';
 import employeeDashboardImage from '../Images/employee-dashboard.png';
