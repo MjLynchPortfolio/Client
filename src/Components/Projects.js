@@ -5,7 +5,6 @@ import "../CSS/queries.css"
 import "../CSS/footer.css"
 
 import projectImage from '../Images/pass-gen.png';
-import newsletterImage from '../Images/newsletter-signup.png';
 import employeeDashboardImage from '../Images/employee-dashboard.png';
 import productPage from '../Images/product-page.png';
 
