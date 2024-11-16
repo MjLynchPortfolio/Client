@@ -115,6 +115,10 @@
         width: 100vw !important;
     }
 
+    .content-container {
+        margin-bottom: 150px !important;
+    }
+
     .card {
         height: 500px !important;
     }

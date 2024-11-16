@@ -6,6 +6,7 @@ import "../CSS/queries.css";
 import iphoneDemo from '../Images/Iphone-demo.png';
 
 import Projects from "../Components/Projects";
+import Footer from "../Components/Footer";
 
 export default function LandingPage() {
     const [scroll, setScroll] = useState(0);
@@ -88,6 +89,7 @@ export default function LandingPage() {
             </div>
             <div className="landing-page-content">
                 <Projects />
+
             </div>
         </div>
     );
