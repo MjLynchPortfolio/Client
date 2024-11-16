@@ -2,6 +2,7 @@ import react, { useState, useEffect, useRef } from 'react';
 
 import "../CSS/landing-page.css";
 import "../CSS/queries.css";
+import "../CSS/skills.css"
 
 import iphoneDemo from '../Images/Iphone-demo.png';
 

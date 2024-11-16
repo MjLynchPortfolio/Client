@@ -1,0 +1,62 @@
+.skills-container {
+    background-color: black;
+    height: 100vh;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.skills-content h1 {
+    --bg-size: 200%;
+    --color-one: #06beb6;
+    --color-two: #753a88;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(2rem, 15vmin, 3rem);
+    background: linear-gradient(90deg,
+            var(--color-one),
+            var(--color-two),
+            var(--color-one)) 0 0 / var(--bg-size) 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    animation: pushRight 5s linear infinite alternate;
+    font-size: 4rem;
+    margin-top: -155px;
+}
+
+.triple-bar {
+    color: white;
+    font-size: 45px;
+    width: 75%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    letter-spacing: 1.5px;
+    font-family: "Inter", sans-serif;
+}
+
+.bar {
+    width: 33.33%;
+    font-size: 50px;
+}
