@@ -7,6 +7,7 @@ import iphoneDemo from '../Images/Iphone-demo.png';
 
 import Projects from "../Components/Projects";
 import Footer from "../Components/Footer";
+import Skills from './Skills';
 
 export default function LandingPage() {
     const [scroll, setScroll] = useState(0);
@@ -74,9 +75,10 @@ export default function LandingPage() {
                             <p className='next'>I've been crafting websites for years—mostly because my ideas won't stop bugging me until I do.</p>
                             <div className='socials'>
                                 <ul>
-                                    <li><a href='https://www.linkedin.com/in/martin-lynch-838976123/'><i class="fa-brands fa-linkedin"></i></a></li>
-                                    <li><a href='https://github.com/mjlynch123'><i class="fa-brands fa-github"></i></a></li>
-                                    <li><a href="https://codepen.io/mjlynch123"><i class="fa-brands fa-codepen"></i></a></li>
+                                    <li><a href='https://www.linkedin.com/in/martin-lynch-838976123/' target='_blank'><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href='https://github.com/mjlynch123' target='_blank'><i class="fa-brands fa-github"></i></a></li>
+                                    <li><a href="https://codepen.io/mjlynch123" target='_blank'><i class="fa-brands fa-codepen"></i></a></li>
+                                    <li><a href='mailto:mjlynch35@yahoo.com'><i class="fa-regular fa-envelope"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -89,7 +91,10 @@ export default function LandingPage() {
             </div>
             <div className="landing-page-content">
                 <Projects />
+            </div>
 
+            <div className='skills-container'>
+                <Skills />
             </div>
         </div>
     );

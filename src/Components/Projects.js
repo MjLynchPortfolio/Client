@@ -10,7 +10,6 @@ import employeeDashboardImage from '../Images/employee-dashboard.png';
 import productPage from '../Images/product-page.png';
 
 
-
 export default function Projects() {
     const [projects, setProjects] = useState([]); // Correct initialization
 
