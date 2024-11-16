@@ -22,7 +22,7 @@ export default function LandingPage() {
             if (index < characterArray.length) {
                 const char = characterArray[index];
                 if (char !== undefined) { // Prevent appending 'undefined'
-                    console.log(`Index: ${index}, Character: "${char}"`); // Debugging log
+                    // console.log(`Index: ${index}, Character: "${char}"`);
                     setDisplayedText((prev) => prev + char);
                 }
                 index++;
