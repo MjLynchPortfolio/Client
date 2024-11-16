@@ -85,6 +85,9 @@ export default function Projects() {
                                 </div>
                             </div>
                         ))}
+                        <div className='footer'>
+                            <p>More projects coming soon...</p>
+                        </div>
                     </div>
 
                 </div>
