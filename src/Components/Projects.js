@@ -2,11 +2,14 @@ import react, { useState, useEffect } from 'react'
 
 import "../CSS/projects.css"
 import "../CSS/queries.css"
+import "../CSS/footer.css"
 
 import projectImage from '../Images/pass-gen.png';
 import newsletterImage from '../Images/newsletter-signup.png';
 import employeeDashboardImage from '../Images/employee-dashboard.png';
 import productPage from '../Images/product-page.png';
+
+
 
 export default function Projects() {
     const [projects, setProjects] = useState([]); // Correct initialization
