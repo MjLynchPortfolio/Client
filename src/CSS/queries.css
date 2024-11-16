@@ -23,11 +23,10 @@
     }
 }
 
-
-
-@media only screen and (min-width: 2400px) {
-    .content-container {
-        height: auto !important;
+@media only screen and (min-width: 2100px) {
+    .card {
+        height: 1000px !important;
+        margin-top: -50px;
     }
 }
 
