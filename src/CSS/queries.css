@@ -132,6 +132,14 @@
         width: 100vw !important;
     }
 
+    .content h1 {
+        margin-left: 10px;
+    }
+
+    .card-container {
+        margin-top: 20px !important;
+    }
+
     .content-container {
         margin-bottom: -40px !important;
     }
