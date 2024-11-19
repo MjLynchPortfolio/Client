@@ -94,6 +94,10 @@
         font-size: 14px;
     }
 
+    .socials {
+        margin-left: 15px;
+    }
+
     .socials ul {
         justify-content: center;
     }
