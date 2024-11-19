@@ -147,6 +147,15 @@
     .languages {
         font-size: 8px !important;
     }
+
+    /* Skills Page */
+    .skills-content h1 {
+        font-size: 37px !important;
+    }
+
+    .bar {
+        font-size: 22px !important;
+    }
 }
 
 @media only screen and (max-width: 375px) {
