@@ -12,7 +12,7 @@ export default function Skills() {
                 <div className="triple-bar">
                     <div className="bar">2.5+<br /> Yrs</div>
                     <div className="bar">50+<br /> Projects</div>
-                    <div className="bar">20k+<br /> Hours</div>
+                    <div className="bar">15k+<br /> Hours</div>
                 </div>
             </div>
 
