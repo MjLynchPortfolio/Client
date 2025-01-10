@@ -42,6 +42,50 @@
     }
 }
 
+/* Tablets */
+@media only screen and (min-width: 1024px) and (max-width: 1390px) {
+    .header-content h1 {
+        font-size: clamp(4rem, 5vmin, 5rem);
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        /* Force 2 columns on smaller screens */
+        gap: 20px;
+        position: relative;
+        top: -70px;
+    }
+}
+
+@media only screen and (max-width: 1390px) {
+    .content h1 {
+        position: relative;
+        top: -50px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-content h1 {
+        font-size: clamp(3rem, 5vmin, 5rem);
+    }
+
+    .header-content {
+        margin-left: 0px;
+    }
+
+    .content h1 {
+        position: relative;
+        top: -40px;
+    }
+
+    /* .card-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 20px;
+        position: relative;
+        top: -100px;
+    } */
+}
+
 /* Mobile Phones */
 
 @media only screen and (max-width: 450px) {

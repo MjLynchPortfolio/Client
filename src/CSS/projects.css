@@ -16,8 +16,10 @@
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
+    position: relative;
+    top: -40px;
     padding: 10px;
     box-sizing: border-box;
     max-width: 100%;
