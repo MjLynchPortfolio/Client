@@ -64,6 +64,32 @@
     }
 }
 
+@media only screen and (max-width: 1180px) {
+    .header-content h1 {
+        font-size: clamp(3rem, 5vmin, 5rem);
+    }
+
+    .header-content {
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .header-content {
+        margin-left: 40px !important;
+    }
+
+    .header-content h1 {
+        font-size: clamp(1rem, 5vmin, 2rem) !important;
+    }
+
+    .next {
+        font-size: 18px;
+        width: 350px;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .header-content h1 {
         font-size: clamp(3rem, 5vmin, 5rem);
