@@ -79,7 +79,7 @@ export default function LandingPage() {
                                     <li><a href='https://www.linkedin.com/in/martin-lynch-838976123/' target='_blank'><i class="fa-brands fa-linkedin"></i></a></li>
                                     <li><a href='https://github.com/mjlynch123' target='_blank'><i class="fa-brands fa-github"></i></a></li>
                                     <li><a href="https://codepen.io/mjlynch123" target='_blank'><i class="fa-brands fa-codepen"></i></a></li>
-                                    <li><a href='mailto:mjlynch35@yahoo.com'><i class="fa-regular fa-envelope"></i></a></li>
+                                    <li><a href='mailto:martinlynchdesign@gmail.com'><i class="fa-regular fa-envelope"></i></a></li>
                                 </ul>
                             </div>
                         </div>
