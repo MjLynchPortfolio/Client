@@ -141,6 +141,7 @@
     }
 
     .fade-in-header {
+        font-size: clamp(2rem, 10vmin, 3rem) !important;
         top: -30px;
         padding: 0px;
     }
@@ -182,13 +183,12 @@
         text-align: center;
         padding: 5px;
         margin: 0 auto;
-        margin-top: -40px;
+        margin-top: -20px;
     }
 
     .next,
     .header-text h1 {
         width: 100%;
-        font-size: clamp(1rem, 10vmin, 2rem) !important;
     }
 
     .header-text h1 {
@@ -197,7 +197,7 @@
     }
 
     .header-text p {
-        font-size: 14px !important;
+        font-size: 14px;
     }
 
     .socials {
