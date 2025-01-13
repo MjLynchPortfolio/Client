@@ -118,7 +118,8 @@
     }
 
     .header-content h1 {
-        font-size: clamp(1rem, 5vmin, 2rem) !important;
+        font-size: clamp(2rem, 5vmin, 3rem) !important;
+        margin-bottom: 10px;
     }
 
     .next {
@@ -141,7 +142,7 @@
     }
 
     .fade-in-header {
-        font-size: clamp(2rem, 10vmin, 3rem) !important;
+        /* font-size: clamp(2rem, 10vmin, 3rem); */
         top: -30px;
         padding: 0px;
     }
