@@ -5,6 +5,7 @@ import "../CSS/queries.css";
 import "../CSS/skills.css"
 
 import iphoneDemo from '../Images/Iphone-demo.png';
+import headerImage from '../Images/Header-Image.jpg';
 
 import Projects from "../Components/Projects";
 import Footer from "../Components/Footer";
@@ -68,7 +69,7 @@ export default function LandingPage() {
                 <div className="fade-in-header">
                     <div className='header-content'>
                         <div className='header-image'>
-                            <img src={iphoneDemo} alt='Iphone Demo' />
+                            <img src={headerImage} alt='Header Image' />
                         </div>
                         <div className='header-text'>
                             <h1 className='typewriter'>{displayedText}<span className="cursor">_</span></h1>
