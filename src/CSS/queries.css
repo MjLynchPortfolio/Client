@@ -18,15 +18,19 @@
     }
 
     .card {
-        height: 1200px !important;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }
 
 @media only screen and (min-width: 2100px) {
+    .content h1 {
+        margin-top: -40px;
+    }
+
     .card {
-        height: 1000px !important;
-        margin-top: -50px;
+        height: 600px !important;
+        margin-top: 0px;
+        margin-bottom: -20px;
     }
 }
 
