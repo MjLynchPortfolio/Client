@@ -98,6 +98,6 @@ export default function LandingPage() {
             <div className='skills-container'>
                 <Skills />
             </div>
-        </div>
+        </div >
     );
 }
