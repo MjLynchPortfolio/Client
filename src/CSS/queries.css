@@ -1,4 +1,4 @@
-@media only screen and (min-width: 2700px) {
+/* @media only screen and (min-width: 2700px) {
     .fade-in-header {
         font-size: clamp(3rem, 15vmin, 5rem);
         position: absolute;
@@ -51,7 +51,6 @@
     }
 }
 
-/* Tablets */
 @media only screen and (max-width: 1700px) {
 
     .header-content {
@@ -75,7 +74,6 @@
 
     .card-container {
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-        /* Force 2 columns on smaller screens */
         gap: 20px;
         position: relative;
         top: -70px;
@@ -114,12 +112,6 @@
         top: -40px;
     }
 
-    /* .card-container {
-        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-        gap: 20px;
-        position: relative;
-        top: -100px;
-    } */
 }
 
 @media only screen and (max-width: 880px) {
@@ -138,10 +130,9 @@
     }
 }
 
-/* Mobile Phones */
+
 
 @media only screen and (max-width: 450px) {
-
     .landing-main {
         font-size: 20px;
         width: 100%;
@@ -152,7 +143,6 @@
     }
 
     .fade-in-header {
-        /* font-size: clamp(2rem, 10vmin, 3rem); */
         top: -30px;
         padding: 0px;
     }
@@ -178,7 +168,6 @@
         height: auto;
         position: relative;
         margin: 10px;
-        /* left: -50px; */
         top: 60px;
     }
 
@@ -203,7 +192,6 @@
     }
 
     .header-text h1 {
-        /* font-size: 30px; */
         margin-left: 20px;
     }
 
@@ -239,7 +227,6 @@
         box-shadow: none;
     }
 
-    /* Cards (Project) */
 
     .content-container,
     .content,
@@ -277,7 +264,6 @@
         font-size: 8px !important;
     }
 
-    /* Skills Page */
     .skills-content h1 {
         font-size: 37px !important;
     }
@@ -295,4 +281,4 @@
     .header-text p {
         font-size: 12px;
     }
-}
+} */
