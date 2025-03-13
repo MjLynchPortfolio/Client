@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Code2, Server, Database } from 'lucide-react';
 
+// Page dedicated to showcasing skills and expertise
 export default function Skills() {
     const [ref, inView] = useInView({
         triggerOnce: true,

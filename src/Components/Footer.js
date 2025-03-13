@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Mail, Linkedin, Github, Twitter } from "lucide-react";
 
+// Footer component that provides contact information and social media links
 export default function Footer() {
     const [ref, inView] = useInView({
         triggerOnce: true,

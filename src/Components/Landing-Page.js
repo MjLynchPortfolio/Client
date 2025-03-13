@@ -15,6 +15,7 @@ import Projects from "../Components/Projects";
 import Footer from "../Components/Footer";
 import Skills from './Skills';
 
+// Landing page component that serves as the main entry point of the application
 export default function LandingPage() {
     const [scroll, setScroll] = useState(0);
     const containerRef = useRef(null);

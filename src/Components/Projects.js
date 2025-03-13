@@ -7,6 +7,7 @@ import projectImage from '../Images/pass-gen.png';
 import employeeDashboardImage from '../Images/employee-dashboard.png';
 import productPage from '../Images/product-page.png';
 
+// Page dedicated to showcasing projects
 export default function Projects() {
     const [projects, setProjects] = useState([]);
     const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
