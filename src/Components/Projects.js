@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { Github, ExternalLink } from 'lucide-react';
 
 import projectImage from '../Images/pass-gen.png';
-import employeeDashboardImage from '../Images/employee-dashboard.png';
+import freshlee from '../Images/freshlee.png';
 import productPage from '../Images/product-page.png';
 
 // Page dedicated to showcasing projects
@@ -43,12 +43,12 @@ export default function Projects() {
             },
             {
                 id: 4,
-                name: "Employee Dashboard",
-                tags: ['JavaScript', 'HTML', 'CSS'],
-                description: "A front-end dashboard for employee management with interactive UI.",
-                live_url: "https://mjlynch123.github.io/Employee_Dashboard/",
-                github_link: "https://github.com/mjlynch123/Employee_Dashboard",
-                image: employeeDashboardImage,
+                name: "Freshlee Meals",
+                tags: ['Vite', 'TailwindCSS'],
+                description: "A meal subscription service landing page",
+                live_url: "https://freshlee.netlify.app/",
+                github_link: "https://github.com/mjlynch123/meal_subscription",
+                image: freshlee,
             },
         ]);
     }, []);
