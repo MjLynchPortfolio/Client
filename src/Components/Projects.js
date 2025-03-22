@@ -5,7 +5,7 @@ import { Github, ExternalLink } from 'lucide-react';
 
 import projectImage from '../Images/pass-gen.png';
 import freshlee from '../Images/freshlee.png';
-import DarkArts from '../Images/darkarts.png';
+import DarkArts from '../Images/DarkArts.png';
 
 // Page dedicated to showcasing projects
 export default function Projects() {
