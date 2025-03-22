@@ -5,7 +5,7 @@ import { Github, ExternalLink } from 'lucide-react';
 
 import projectImage from '../Images/pass-gen.png';
 import freshlee from '../Images/freshlee.png';
-import productPage from '../Images/product-page.png';
+import DarkArts from '../Images/darkarts.png';
 
 // Page dedicated to showcasing projects
 export default function Projects() {
@@ -34,12 +34,12 @@ export default function Projects() {
             },
             {
                 id: 3,
-                name: "Product Page",
-                tags: ['JavaScript', 'HTML', 'CSS'],
-                description: "A front-end e-commerce product page designed with Frontend Mentor's guidelines.",
-                live_url: "https://mjlynch123.github.io/Product_Page_FEM/",
-                github_link: "https://github.com/mjlynch123/Product_Page_FEM",
-                image: productPage,
+                name: "Tattoo Shop Landing Page",
+                tags: ['Vite', 'TailwindCSS'],
+                description: "A Front-End mockup of a landing page a tattoo shop could use. ",
+                live_url: "https://darkartstattoo.netlify.app/",
+                github_link: "https://github.com/mjlynch123/TattooShopWebsite",
+                image: DarkArts,
             },
             {
                 id: 4,
