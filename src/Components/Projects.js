@@ -35,7 +35,7 @@ export default function Projects() {
             {
                 id: 3,
                 name: "Tattoo Shop Landing Page",
-                tags: ['Vite', 'TailwindCSS'],
+                tags: ['React', 'TailwindCSS'],
                 description: "A Front-End mockup of a landing page a tattoo shop could use. ",
                 live_url: "https://darkartstattoo.netlify.app/",
                 github_link: "https://github.com/mjlynch123/TattooShopWebsite",
@@ -44,7 +44,7 @@ export default function Projects() {
             {
                 id: 4,
                 name: "Freshlee Meals",
-                tags: ['Vite', 'TailwindCSS'],
+                tags: ['React', 'TailwindCSS'],
                 description: "A meal subscription service landing page",
                 live_url: "https://freshlee.netlify.app/",
                 github_link: "https://github.com/mjlynch123/meal_subscription",
