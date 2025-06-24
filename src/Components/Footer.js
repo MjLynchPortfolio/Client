@@ -62,16 +62,6 @@ export default function Footer() {
                         </motion.a>
                     </div>
 
-                    {/* Resume Download Button */}
-                    {/* <motion.a
-                        href="/MartinLynchResumeMain.pdf"// <-- Path to your resume file
-                        download="Martin_Lynch_Resume.pdf"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full font-semibold transition duration-300"
-                    >
-                        Download Resume
-                    </motion.a> */}
                 </motion.div>
             </div>
 
