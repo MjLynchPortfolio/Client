@@ -19,7 +19,7 @@ export default function Skills() {
         {
             icon: <Server className="w-12 h-12" />,
             title: 'Backend Development',
-            skills: ['Node.js', 'Express', 'Python']
+            skills: ['Node.js', 'Express']
         },
         {
             icon: <Database className="w-12 h-12" />,
