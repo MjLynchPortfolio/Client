@@ -52,14 +52,14 @@ export default function Footer() {
                         >
                             <Github className="w-8 h-8" />
                         </motion.a>
-                        <motion.a
+                        {/* <motion.a
                             href="https://algomastr.com/"
                             target="_blank"
                             whileHover={{ scale: 1.1 }}
                             className="text-gray-400 hover:text-blue-400 transition-colors"
                         >
                             AlgoMastr (W.I.P)
-                        </motion.a>
+                        </motion.a> */}
                     </div>
 
                 </motion.div>

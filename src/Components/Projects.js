@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Github, ExternalLink } from 'lucide-react';
 
-import projectImage from '../Images/pass-gen.png';
+import AlgoMastr from '../Images/ALGO.png';
 import freshlee from '../Images/freshlee.png';
 import DarkArts from '../Images/DarkArts.png';
 
@@ -13,7 +13,16 @@ export default function Projects() {
     const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
     useEffect(() => {
+
         setProjects([
+            {
+                id: 0,
+                name: "AlgoMastr",
+                tags: ['React', 'Node.js', 'Express', 'Sequelize', 'Stripe', 'Supabase', 'OpenRouter', 'TailwindCSS'],
+                description: "AlgoMastr is an AI-powered tutor platform that helps users master algorithms and data structures through natural language conversation. Features include token-based access, streak rewards, and subscription plans.",
+                live_url: "https://algomastr.com/",
+                image: AlgoMastr,
+            },
             {
                 id: 1,
                 name: "Employee Tracker",
@@ -22,15 +31,6 @@ export default function Projects() {
                 live_url: "",
                 github_link: "https://github.com/mjlynch123/Employee_Tracker",
                 image: "https://github.com/mjlynch123/Employee_Tracker/blob/main/Assets/Images/screenshot.png?raw=true",
-            },
-            {
-                id: 2,
-                name: "Password Generator",
-                tags: ['JavaScript', 'HTML', 'CSS'],
-                description: "Generates a random password based on user-selected criteria.",
-                live_url: "https://codepen.io/mjlynch123/pen/vYrmrPx",
-                github_link: "https://codepen.io/mjlynch123/pen/vYrmrPx",
-                image: projectImage,
             },
             {
                 id: 3,
