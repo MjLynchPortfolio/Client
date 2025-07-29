@@ -112,7 +112,7 @@ export default function LandingPage() {
                                 Full Stack Developer specializing in modern web development, creating exceptional digital experiences with cutting-edge technologies.
                             </p>
 
-                            <div className="flex flex-wrap gap-6">
+                            {/* <div className="flex flex-wrap gap-6">
                                 <motion.button
                                     className="px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-white/90 transition-all duration-300 shadow-lg hover:shadow-xl"
                                     whileHover={{ scale: 1.05, y: -2 }}
@@ -127,7 +127,7 @@ export default function LandingPage() {
                                 >
                                     Get In Touch
                                 </motion.button>
-                            </div>
+                            </div> */}
 
                             <div className="flex gap-6 pt-8">
                                 {socialLinks.map((social, index) => (
