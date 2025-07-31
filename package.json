@@ -23,6 +23,7 @@
   },
   "scripts": {
     "start": "serve -s build",
+    "dev": "react-scripts start",
     "heroku-postbuild": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
