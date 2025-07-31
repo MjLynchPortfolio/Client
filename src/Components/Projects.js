@@ -6,7 +6,6 @@ import { Github, ExternalLink, ArrowUpRight, Sparkles, X } from 'lucide-react';
 import AlgoMastr from '../Images/ALGO.png';
 import freshlee from '../Images/freshlee.png';
 import DarkArts from '../Images/DarkArts.png';
-import { use } from 'react';
 
 export default function Projects() {
     const [projects, setProjects] = useState([]);
