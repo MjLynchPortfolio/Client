@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Github, ExternalLink, ArrowUpRight, Sparkles, X } from 'lucide-react';
 import AlgoMastr from '../Images/ALGO.png';
+import Rayvn from '../Images/rayvn2.png';
 import freshlee from '../Images/freshlee.png';
-import DarkArts from '../Images/DarkArts.png';
 
 export default function Projects() {
     const [projects, setProjects] = useState([]);
@@ -26,8 +26,20 @@ export default function Projects() {
                 accent: "bg-gradient-to-br from-emerald-400 to-cyan-400",
                 year: "2025"
             },
+
             {
                 id: 1,
+                name: "Rayvn Coding Language",
+                tags: ['Python'],
+                description: "Rayvn is a small programming language that compiles to bytecode and runs on a custom stack-based virtual machine.",
+                github_link: "https://github.com/Ravyn-Coding-Language/Rayvn",
+                image: Rayvn,
+                accent: "bg-gradient-to-br from-red-400 to-orange-400",
+                year: "2026"
+            },
+
+            {
+                id: 2,
                 name: "Employee Tracker",
                 tags: ['JavaScript', 'ExpressJS', 'SQL', 'Node.js', 'Inquirer'],
                 description: "A program that allows users to add, update, and delete employees, roles, and departments.",
@@ -39,17 +51,6 @@ export default function Projects() {
             },
             {
                 id: 3,
-                name: "Tattoo Shop Landing Page",
-                tags: ['React', 'TailwindCSS'],
-                description: "A Front-End mockup of a landing page a tattoo shop could use.",
-                live_url: "https://darkartstattoo.netlify.app/",
-                github_link: "https://github.com/mjlynch123/TattooShopWebsite",
-                image: DarkArts,
-                accent: "bg-gradient-to-br from-red-400 to-orange-400",
-                year: "2024"
-            },
-            {
-                id: 4,
                 name: "Freshlee Meals",
                 tags: ['React', 'TailwindCSS'],
                 description: "A meal subscription service landing page",
