@@ -6,6 +6,7 @@ import { Github, ExternalLink, ArrowUpRight, Sparkles, X } from 'lucide-react';
 import AlgoMastr from '../Images/ALGO.png';
 import Rayvn from '../Images/rayvn2.png';
 import freshlee from '../Images/freshlee.png';
+import StarColonyPreview from '../Images/StarColonyPreview2.png';
 
 export default function Projects() {
     const [projects, setProjects] = useState([]);
@@ -40,14 +41,15 @@ export default function Projects() {
 
             {
                 id: 2,
-                name: "Employee Tracker",
-                tags: ['JavaScript', 'ExpressJS', 'SQL', 'Node.js', 'Inquirer'],
-                description: "A program that allows users to add, update, and delete employees, roles, and departments.",
-                live_url: "",
-                github_link: "https://github.com/mjlynch123/Employee_Tracker",
-                image: "https://github.com/mjlynch123/Employee_Tracker/blob/main/Assets/Images/screenshot.png?raw=true",
+                name: "Star Colony",
+                tags: ['React Native', 'Expo', 'AsyncStorage', 'AdMob', 'RevenueCat'],
+                description: "Star Colony is a published iOS idle space colony builder built with React Native and Expo. Players tap to earn credits, upgrade their colony, unlock rewards, and expand their empire across space.",
+                live_url: "https://apps.apple.com/us/app/star-colony/id6760729376",
+                github_link: "",
+                // image: "https://github.com/mjlynch123/Employee_Tracker/blob/main/Assets/Images/screenshot.png?raw=true",
+                image: StarColonyPreview,
                 accent: "bg-gradient-to-br from-purple-400 to-pink-400",
-                year: "2023"
+                year: "2026"
             },
             {
                 id: 3,

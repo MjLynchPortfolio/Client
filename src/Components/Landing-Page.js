@@ -107,7 +107,7 @@ export default function LandingPage() {
                                 </motion.span>
                             </div>
 
-                            <h1 className="text-3xl md:text-5xl font-bold text-white/90">Web Developer</h1>
+                            {/* <h1 className="text-3xl md:text-5xl font-bold text-white/90">Web Developer</h1> */}
                             <p className="text-xl text-white/70 leading-relaxed max-w-lg">
                                 Full Stack Developer specializing in modern web development, creating exceptional digital experiences with cutting-edge technologies.
                             </p>
