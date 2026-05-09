@@ -13,7 +13,8 @@ import Projects from "../Components/Projects";
 import Footer from "../Components/Footer";
 import Skills from './Skills';
 
-const backgroundImage = "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop";
+// const backgroundImage = "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop";
+import backgroundImage from '../Images/Header-Image2.png';
 
 export default function LandingPage() {
     const [displayedText, setDisplayedText] = useState('');
